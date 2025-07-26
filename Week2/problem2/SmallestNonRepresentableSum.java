@@ -25,7 +25,7 @@ public class SmallestNonRepresentableSum {
         Scanner scanner = new Scanner(System.in);
         
         
-        System.out.println("Enter array elements (space-separated, sorted): ");
+        System.out.println("Enter array elements (space-separated, sorted):- ");
         String[] input = scanner.nextLine().trim().split("\\s+");
         int[] arr = new int[input.length];
         for (int i = 0; i < input.length; i++) {
@@ -34,7 +34,7 @@ public class SmallestNonRepresentableSum {
         
         
         long result = smallestNonRepresentableSum(arr);
-        System.out.println("Smallest non-representable positive integer: " + result);
+        System.out.println("Smallest non-representable positive integer:- " + result);
         
         scanner.close();
     }
