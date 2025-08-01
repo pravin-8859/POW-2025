@@ -17,7 +17,6 @@ public class EqualSumPartition {
                 dp[j] = dp[j] || dp[j - num];
             }
         }
-
         return dp[target];
     }
 
